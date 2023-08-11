@@ -7,3 +7,14 @@
 body {
   font-family: "montserrat", sans-serif;
 }
+
+/* Mobile view */
+
+/* Navbar */
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 18px 20px;
+}
