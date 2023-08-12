@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -37,6 +37,7 @@ body {
   text-align: center;
   font-style: normal;
   font-weight: 400;
+  position: relative;
 }
 
 .about {
@@ -105,4 +106,47 @@ body {
   font-weight: 500;
   width: 25px;
   height: 32px;
+}
+
+.limited-spots {
+  font-size: 16px;
+  line-height: 25px;
+  width: 281px;
+  margin: 29px auto 0;
+  text-align: left;
+}
+
+.appointment-button {
+  padding: 10px 14px;
+  background: #dd71c6;
+  border: none;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  margin: 43px auto 42px;
+  color: #fff;
+  width: 215px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.yellow-rectangle {
+  position: absolute;
+  top: -102px;
+  left: 50%;
+  z-index: -2;
+  width: 595px;
+  height: 748px;
+  flex-shrink: 0;
+  border-radius: 50px 0px 0px 0px;
+  background: #ffd900;
+}
+
+#top-section-ellipse {
+  position: absolute;
+  top: 50px;
+  right: -60px;
+  width: 222px;
+  height: 222px;
+  stroke-width: 28px;
+  stroke: #fff;
+  z-index: -1;
 }
