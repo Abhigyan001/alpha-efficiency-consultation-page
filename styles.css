@@ -126,6 +126,7 @@ body {
   width: 215px;
   font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .yellow-rectangle {
@@ -149,4 +150,141 @@ body {
   stroke-width: 28px;
   stroke: #fff;
   z-index: -1;
+}
+
+/* Section 2 */
+
+#book-online {
+  width: 100%;
+  height: 508px;
+  flex-shrink: 0;
+  background: #dd71c6;
+  padding-top: 51px;
+  position: relative;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+}
+
+.card {
+  display: flex;
+  width: 134px;
+  height: 157px;
+  padding-top: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.03);
+  z-index: 2;
+}
+
+.second-row {
+  margin-top: 23px;
+}
+
+.card-number {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.plus {
+  color: #c4c4c4;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 2px;
+}
+
+.card-content {
+  color: #333;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  padding: 0 5px;
+}
+
+.button-sec-2 {
+  background: #ffd900;
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+}
+
+#second-section-ellipse-left {
+  position: absolute;
+  top: 260px;
+  left: -20px;
+  z-index: 1;
+}
+
+#second-section-ellipse-right {
+  position: absolute;
+  top: 120px;
+  right: -28px;
+  z-index: 1;
+}
+
+/* Section 3 */
+
+#weight-loss {
+  width: 100%;
+  height: 1100px;
+  flex-shrink: 0;
+  background: #73c3f4;
+  padding-top: 74px;
+  position: relative;
+}
+
+.query-container {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 281px;
+  margin: 0 auto;
+}
+
+.query-ques {
+  font-family: "Libre Baskerville", serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.query-ans {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-top: 23px;
+  text-align: left;
+  z-index: 2;
+}
+
+.query-ques-2 {
+  margin-top: 42px;
+}
+
+.button-sec-3 {
+  display: flex;
+  justify-content: center;
+}
+
+#third-section-circle-right {
+  position: absolute;
+  top: 55px;
+  right: -20px;
+  z-index: 1;
+}
+
+#third-section-mobile-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 53px;
 }
