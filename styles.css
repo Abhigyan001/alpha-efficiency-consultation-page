@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +7,10 @@
 }
 
 body {
-  font-family: "montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-/* Mobile view */
+/* Mobile view (320px) */
 
 /* Navbar */
 
@@ -17,4 +19,33 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 18px 20px;
+}
+
+#hamburger-menu {
+  cursor: pointer;
+}
+
+/* Section 1 */
+
+.top-section {
+  margin: 44px 22px 0;
+  color: #333;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.about {
+  font-family: "Libre Baskerville", serif;
+  font-size: 30px;
+  line-height: 48px;
+}
+
+.highlight {
+  color: #dd71c6;
+}
+
+.spots-available {
+  font-size: 12px;
+  margin-top: 19px;
 }
