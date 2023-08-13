@@ -16,10 +16,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.twelve {
-  font-size: 12px;
-}
-
 button {
   cursor: pointer;
   border: none;
@@ -129,6 +125,10 @@ button p {
   margin: 0 auto;
 }
 
+.offer-ends {
+  font-size: 12px;
+}
+
 .countdown {
   display: flex;
   align-items: flex-start;
@@ -154,6 +154,8 @@ button p {
   font-weight: 500;
   width: 25px;
   height: 32px;
+  display: flex;
+  justify-content: center;
 }
 
 .limited-spots {
@@ -182,7 +184,7 @@ button p {
   left: 50%;
   z-index: -2;
   width: 100%;
-  height: 748px;
+  height: 753px;
   flex-shrink: 0;
   border-radius: 50px 0px 0px 0px;
   background: #ffd900;
@@ -197,6 +199,12 @@ button p {
   stroke-width: 28px;
   stroke: #fff;
   z-index: -1;
+}
+
+#first-section-tablet-ellipse-right,
+#first-section-tablet-ellipse-left,
+#first-section-tablet-ellipse-down {
+  display: none;
 }
 
 /* Section 2 */
@@ -653,6 +661,98 @@ button p {
 
 /* Tablet design */
 @media only screen and (min-width: 768px) {
+  .nav-menu {
+    margin: 22px 82px 0;
+  }
+
+  /* Section 1 */
+  .yellow-rectangle {
+    top: -30px;
+    height: 800px;
+  }
+
+  .top-section {
+    padding: 0 82px;
+  }
+
+  .about {
+    font-size: 36px;
+    line-height: 54px;
+    width: 432px;
+    height: 162px;
+    text-align: left;
+    margin: 0;
+  }
+
+  .spots-available {
+    font-size: 16px;
+    margin-top: 38px;
+  }
+
+  .countdown-container {
+    width: 394px;
+    height: 223px;
+    margin-top: 39px;
+    padding: 26px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 2;
+    position: relative;
+  }
+
+  .offer-container {
+    width: 322px;
+  }
+
+  .offer-ends {
+    font-size: 16px;
+  }
+
+  .time {
+    font-size: 12px;
+  }
+
+  .count {
+    font-size: 36px;
+  }
+
+  .limited-spots {
+    width: 425px;
+    margin: 58px 0 0;
+  }
+
+  .appointment-button {
+    margin-top: 22px;
+    margin-bottom: 66px;
+  }
+
+  #top-section-ellipse {
+    display: none;
+  }
+
+  #first-section-tablet-ellipse-right,
+  #first-section-tablet-ellipse-left,
+  #first-section-tablet-ellipse-down {
+    display: block;
+    position: absolute;
+  }
+
+  #first-section-tablet-ellipse-right {
+    top: -20px;
+    right: -10px;
+  }
+
+  #first-section-tablet-ellipse-left {
+    bottom: 250px;
+    left: -50px;
+  }
+
+  #first-section-tablet-ellipse-down {
+    bottom: 170px;
+    right: 90px;
+    z-index: 1;
+  }
 }
 
 /* Desktop design */
