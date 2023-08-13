@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -24,6 +24,12 @@ button {
   cursor: pointer;
   border: none;
   background: transparent;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
 }
 
 button p {
@@ -452,7 +458,7 @@ button p {
   flex-shrink: 0;
   padding-top: 62px;
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .faq-title {
@@ -518,4 +524,97 @@ button p {
   position: absolute;
   top: 12px;
   right: -25px;
+}
+
+/* Footer Section */
+
+#footer {
+  width: 100%;
+  flex-shrink: 0;
+  padding-top: 65px;
+  position: relative;
+  padding-bottom: 26px;
+  background: #f9f9f9;
+}
+
+.footer-top {
+  margin: 0 auto;
+  width: 281px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: space-between;
+}
+
+.footer-top-text {
+  font-size: 14px;
+  width: 300px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.location {
+  display: flex;
+  gap: 17px;
+  align-items: flex-start;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.contact-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.contact-details {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.footer-mid {
+  margin: 38px auto 0;
+  width: 281px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 42px;
+}
+
+.footer-mid div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-mid p {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.footer-mid a {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.footer-bottom {
+  margin: 48px auto 0;
+  width: 281px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.footer-bottom img {
+  cursor: pointer;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  line-height: 22px;
 }
