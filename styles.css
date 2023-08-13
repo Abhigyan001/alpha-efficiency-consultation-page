@@ -6,12 +6,32 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
 
 .twelve {
   font-size: 12px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+button p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hidden {
+  display: none;
 }
 
 /* Mobile view (320px) */
@@ -23,10 +43,6 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 18px 20px;
-}
-
-#hamburger-menu {
-  cursor: pointer;
 }
 
 /* Section 1 */
@@ -126,15 +142,14 @@ body {
   width: 215px;
   font-size: 16px;
   font-weight: 600;
-  cursor: pointer;
 }
 
 .yellow-rectangle {
   position: absolute;
-  top: -102px;
+  top: -106px;
   left: 50%;
   z-index: -2;
-  width: 595px;
+  width: 100%;
   height: 748px;
   flex-shrink: 0;
   border-radius: 50px 0px 0px 0px;
@@ -321,8 +336,8 @@ body {
 }
 
 #fourth-section-image-mobile {
-  height: 230px;
-  width: 320px;
+  height: auto;
+  width: 100%;
   margin-top: 60px;
   margin-bottom: 62px;
 }
@@ -428,4 +443,79 @@ body {
   top: 80px;
   right: 0;
   z-index: 1;
+}
+
+/* Section 6 */
+
+#faq-section {
+  width: 100%;
+  flex-shrink: 0;
+  padding-top: 62px;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.faq-title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  margin: 0 auto;
+  width: 281px;
+}
+
+#faq-container {
+  width: 308px;
+  margin: 62px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.faq-item {
+  display: flex;
+  flex-direction: column;
+  width: 308px;
+  padding: 4px 8px;
+  align-items: center;
+  border-radius: 12px;
+  background: #f9f9f9;
+}
+
+.faq {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.faq-ques,
+.faq-ans {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.faq .faq-ques {
+  width: 260px;
+  text-align: left;
+  color: #333;
+}
+
+.faq-ans {
+  margin-top: 1rem;
+  transition: all 0.3s;
+}
+
+.faq-item button img {
+  transition: all 0.3s;
+}
+
+.faq-item button img.rotate {
+  transform: rotate(180deg);
+}
+
+#faq-ellipse-right {
+  position: absolute;
+  top: 12px;
+  right: -25px;
 }
