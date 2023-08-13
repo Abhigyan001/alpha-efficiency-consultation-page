@@ -21,7 +21,7 @@ function closeMenu() {
 }
 
 // Coutdown timer
-const countTime = new Date(2023, 8, 13, 0, 0, 0).getTime();
+const countTime = new Date(2023, 7, 22, 0, 0, 0).getTime();
 const days = document.querySelector("#days");
 const hours = document.querySelector("#hours");
 const minutes = document.querySelector("#minutes");

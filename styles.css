@@ -72,6 +72,7 @@ button p {
 
 .nav-item {
   margin: 2.5rem 0;
+  list-style-type: none;
 }
 
 /* Section 1 */
@@ -1091,7 +1092,103 @@ button p {
 }
 
 /* Desktop design */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) {
+  #hamburger-menu {
+    display: none;
+  }
+
+  .nav-menu {
+    width: 1000px;
+    margin: 20px auto 0;
+    gap: 30px;
+  }
+
+  .nav-menu img {
+    width: 138px;
+    height: 62px;
+  }
+
+  .nav-menu-links {
+    position: static;
+    background-color: transparent;
+    box-shadow: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-item {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  /* Section 1 */
+  .yellow-rectangle {
+    top: -206px;
+    left: 84%;
+    height: 760px;
+  }
+
+  #first-section-tablet-ellipse-right,
+  #first-section-tablet-ellipse-left,
+  #first-section-tablet-ellipse-down {
+    display: none;
+  }
+
+  .top-section {
+    padding: 0 12px 115px;
+    margin: 120px auto 0;
+    width: 1000px;
+  }
+
+  .about-countdown-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about {
+    font-size: 45px;
+    width: 437px;
+    line-height: 150%;
+  }
+
+  .spots-available {
+    display: none;
+  }
+
+  .countdown-container {
+    width: 500px;
+    height: 250px;
+    padding: 41px 36px;
+    margin: 0;
+    justify-content: space-between;
+  }
+
+  .offer-container {
+    gap: 53px;
+  }
+
+  .countdown {
+    gap: 36px;
+  }
+
+  .offer-ends,
+  .time {
+    font-size: 18px;
+  }
+
+  .count {
+    font-size: 40px;
+  }
+
+  .limited-spots {
+    margin-top: 30px;
+  }
+
+  .appointment-button {
+    margin: 30px 0 0;
+    display: block;
+  }
 }
 
 /* Large screen devices */
