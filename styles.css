@@ -14,6 +14,7 @@ body {
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #fff;
 }
 
 button {
@@ -228,7 +229,6 @@ button p {
   display: flex;
   width: 134px;
   height: 157px;
-  padding-top: 16px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -284,6 +284,10 @@ button p {
   top: 120px;
   right: -28px;
   z-index: 1;
+}
+
+#second-section-tablet-ellipse {
+  display: none;
 }
 
 /* Section 3 */
@@ -344,6 +348,11 @@ button p {
   margin-top: 53px;
 }
 
+#third-section-ellipse-tablet-left,
+#third-section-ellipse-tablet-right {
+  display: none;
+}
+
 /* Section 4 */
 
 #patient-stories {
@@ -395,21 +404,24 @@ button p {
   z-index: 1;
 }
 
+#fourth-section-tablet-ellipse {
+  display: none;
+}
+
 /* Section 5 */
 
 #free-consultation {
   width: 100%;
   flex-shrink: 0;
   background: #f9f9f9;
-  padding-top: 39px;
+  padding: 39px 0 71px;
   position: relative;
-  padding-bottom: 71px;
 }
 
 .section-five-title {
   width: 281px;
   margin: 0 auto;
-  line-height: 38px;
+  line-height: 160%;
   position: relative;
   z-index: 2;
 }
@@ -483,6 +495,12 @@ button p {
   top: 80px;
   right: 0;
   z-index: 1;
+}
+
+#fifth-section-tablet-ellipse-right,
+#fifth-section-tablet-ellipse-left,
+#fifth-section-tablet-ellipse-bottom {
+  display: none;
 }
 
 /* Section 6 */
@@ -752,6 +770,210 @@ button p {
     bottom: 170px;
     right: 90px;
     z-index: 1;
+  }
+
+  /* Section 2 */
+  #book-online {
+    height: 372px;
+    padding: 43px 0;
+  }
+
+  .tablet-card-container {
+    display: flex;
+    width: 656px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .card-container {
+    gap: 25px;
+  }
+
+  .card {
+    width: 146px;
+    height: 215px;
+    padding: 20px 0;
+  }
+
+  .second-row {
+    margin: 0;
+  }
+
+  .card-number {
+    font-size: 24px;
+    padding: 10px 0;
+  }
+
+  .plus {
+    font-size: 20px;
+  }
+
+  .card-content {
+    font-size: 16px;
+    width: 123px;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+  }
+
+  .button-sec-2 {
+    margin-top: 31px;
+  }
+
+  #second-section-ellipse-left,
+  #second-section-ellipse-right {
+    display: none;
+  }
+
+  #second-section-tablet-ellipse {
+    display: block;
+    position: absolute;
+    bottom: 50px;
+    right: -15px;
+  }
+
+  /* Section 3 */
+
+  #weight-loss {
+    padding-bottom: 54px;
+    height: auto;
+  }
+
+  .query-container {
+    width: 408px;
+  }
+
+  .query-ques {
+    font-size: 32px;
+    line-height: 51px;
+  }
+
+  .query-ans {
+    font-size: 16px;
+    line-height: 25px;
+    width: 440px;
+  }
+
+  .query-ques-2 {
+    margin-top: 32px;
+  }
+
+  .button-sec-3 {
+    margin-top: 30px;
+  }
+
+  #third-section-circle-right {
+    display: none;
+  }
+
+  #third-section-mobile-image {
+    width: 373px;
+    height: 482px;
+    margin: 0 auto;
+  }
+
+  #third-section-ellipse-tablet-left,
+  #third-section-ellipse-tablet-right {
+    display: block;
+    position: absolute;
+  }
+
+  #third-section-ellipse-tablet-left {
+    bottom: 260px;
+    left: -10px;
+  }
+
+  #third-section-ellipse-tablet-right {
+    top: 150px;
+    right: -60px;
+  }
+
+  /* Section 4 */
+
+  #patient-stories {
+    padding: 77px 0 65px;
+  }
+
+  .fourth-section-container {
+    width: 440px;
+    gap: 64px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  #fourth-section-image-mobile {
+    margin: 44px 0;
+  }
+
+  .button-sec-4 {
+    margin: 43px auto 0;
+  }
+
+  #fourth-section-ellipse-right {
+    display: none;
+  }
+
+  #fourth-section-tablet-ellipse {
+    display: block;
+    position: absolute;
+    top: 45px;
+    right: -20px;
+  }
+
+  /* Section 5 */
+
+  #free-consultation {
+    padding: 59px 0 97px;
+  }
+
+  .section-five-title {
+    width: 437px;
+    font-size: 32px;
+  }
+
+  .section-five-cards-container,
+  .section-five-cards {
+    width: 440px;
+  }
+
+  .section-five-cards {
+    height: 363px;
+    justify-content: center;
+  }
+
+  .section-five-card-title {
+    font-size: 24px;
+  }
+
+  #fifth-section-ellipse-left,
+  #fifth-section-ellipse-right {
+    display: none;
+  }
+
+  #fifth-section-tablet-ellipse-right,
+  #fifth-section-tablet-ellipse-left,
+  #fifth-section-tablet-ellipse-bottom {
+    display: block;
+    position: absolute;
+  }
+
+  #fifth-section-tablet-ellipse-right {
+    bottom: 450px;
+    right: -20px;
+  }
+
+  #fifth-section-tablet-ellipse-left {
+    top: 70px;
+    left: -30px;
+  }
+
+  #fifth-section-tablet-ellipse-bottom {
+    bottom: 100px;
+    left: -20px;
   }
 }
 
