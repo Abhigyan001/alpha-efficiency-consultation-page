@@ -36,19 +36,19 @@
               <div class="countdown">
                 <div class="time-left">
                   <p class="time">DAYS</p>
-                  <p class="count">00</p>
+                  <p id="days" class="count">00</p>
                 </div>
                 <div class="time-left">
                   <p class="time">HOURS</p>
-                  <p class="count">16</p>
+                  <p id="hours" class="count">16</p>
                 </div>
                 <div class="time-left">
                   <p class="time">MINUTES</p>
-                  <p class="count">29</p>
+                  <p id="minutes" class="count">29</p>
                 </div>
                 <div class="time-left">
                   <p class="time">SECONDS</p>
-                  <p class="count">27</p>
+                  <p id="seconds" class="count">27</p>
                 </div>
               </div>
             </div>
@@ -362,16 +362,20 @@
     <footer id="footer">
       <div class="footer-top">
         <img src="assets/logo.svg" alt="footer-logo" width="138" height="62" />
-        <p class="footer-top-text">A Better Weigh Medical Weight Loss Center offers a weight loss program dedicated to helping you achieve long term weight loss success with the use of FDA approved medication.</p>
+        <p class="footer-top-text">
+          A Better Weigh Medical Weight Loss Center offers a weight loss program
+          dedicated to helping you achieve long term weight loss success with
+          the use of FDA approved medication.
+        </p>
         <div class="location">
-          <img src="assets/location.svg" alt="location">
+          <img src="assets/location.svg" alt="location" />
           <div class="contact">
             <p class="contact-title">Head Office:</p>
             <p class="contact-details">1931 W 95th Streeet Chicago IL, 60643</p>
           </div>
         </div>
         <div class="location">
-          <img src="assets/phone.svg" alt="phone">
+          <img src="assets/phone.svg" alt="phone" />
           <div class="contact">
             <p class="contact-title">Phone:</p>
             <p class="contact-details">773-496-4222</p>
@@ -397,9 +401,19 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <img src="assets/social-icons.svg" alt="social icons" width="132" height="30">
+        <img
+          src="assets/social-icons.svg"
+          alt="social icons"
+          width="132"
+          height="30"
+        />
         <p>Copyright by A Better Weigh Inc. All rights reserved.</p>
       </div>
+      <img
+        src="assets/footer-ellipse-right.svg"
+        alt="footer ellipse right"
+        id="footer-ellipse-right"
+      />
     </footer>
 
     <script defer src="main.js"></script>
