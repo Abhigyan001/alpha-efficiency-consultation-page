@@ -205,7 +205,9 @@ button p {
 
 #first-section-tablet-ellipse-right,
 #first-section-tablet-ellipse-left,
-#first-section-tablet-ellipse-down {
+#first-section-tablet-ellipse-down,
+#first-section-desktop-ellipse-left,
+#first-section-desktop-ellipse-right {
   display: none;
 }
 
@@ -287,7 +289,9 @@ button p {
   z-index: 1;
 }
 
-#second-section-tablet-ellipse {
+#second-section-tablet-ellipse,
+#second-section-desktop-ellipse-left,
+#second-section-desktop-ellipse-right {
   display: none;
 }
 
@@ -351,7 +355,9 @@ button p {
 
 #third-section-ellipse-tablet-left,
 #third-section-ellipse-tablet-right,
-#third-section-image-desktop {
+#third-section-image-desktop,
+#third-section-ellipse-desktop-left,
+#third-section-ellipse-desktop-right {
   display: none;
 }
 
@@ -502,7 +508,10 @@ button p {
 
 #fifth-section-tablet-ellipse-right,
 #fifth-section-tablet-ellipse-left,
-#fifth-section-tablet-ellipse-bottom {
+#fifth-section-tablet-ellipse-bottom,
+#fifth-section-desktop-ellipse-left,
+#fifth-section-desktop-ellipse-right,
+#fifth-section-desktop-ellipse-bottom {
   display: none;
 }
 
@@ -581,6 +590,12 @@ button p {
 }
 
 .button-sec-6 {
+  display: none;
+}
+
+#faq-ellipse-desktop-left,
+#faq-ellipse-desktop-right,
+#faq-ellipse-desktop-bottom {
   display: none;
 }
 
@@ -684,7 +699,9 @@ button p {
 }
 
 #footer-ellipse-tablet-top,
-#footer-ellipse-tablet-bottom {
+#footer-ellipse-tablet-bottom,
+#footer-ellipse-desktop-left,
+#footer-ellipse-desktop-right {
   display: none;
 }
 
@@ -1455,4 +1472,243 @@ button p {
 
 /* Large screen devices */
 @media only screen and (min-width: 1200px) {
+  .nav-menu,
+  .top-section,
+  .tablet-card-container,
+  .third-section-desktop,
+  .fourth-section-container.section-five-title,
+  .section-five-cards-container,
+  .faq-title,
+  #faq-container,
+  .footer-desktop,
+  .footer-bottom {
+    width: 1100px;
+    position: static;
+  }
+
+  #book-online,
+  #weight-loss,
+  #patient-stories,
+  #free-consultation,
+  #faq-section,
+  #footer {
+    position: relative;
+  }
+
+  body {
+    position: relative;
+    background-color: #f9f9f9;
+  }
+
+  .nav-menu {
+    gap: 55px;
+  }
+
+  /* Section 1 */
+
+  .top-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .yellow-rectangle {
+    top: 0;
+    left: 75%;
+    height: 50rem;
+  }
+
+  .countdown-container {
+    box-shadow: none;
+    width: 629px;
+    height: 100%;
+    border-radius: 50px;
+    backdrop-filter: blur(33.5px);
+  }
+
+  .time-left {
+    gap: 36px;
+  }
+
+  .count {
+    font-size: 50px;
+    height: 90px;
+  }
+
+  #first-section-desktop-ellipse-left,
+  #first-section-desktop-ellipse-right {
+    display: block;
+    position: absolute;
+  }
+
+  #first-section-desktop-ellipse-left {
+    top: 3%;
+    left: -10%;
+  }
+
+  #first-section-desktop-ellipse-right {
+    top: 2%;
+    right: -10%;
+  }
+
+  /* Section 2 */
+
+  .tablet-card-container {
+    justify-content: space-evenly;
+  }
+
+  .card-container {
+    gap: 3rem;
+  }
+
+  #second-section-desktop-ellipse-left,
+  #second-section-desktop-ellipse-right {
+    display: block;
+    position: absolute;
+  }
+
+  #second-section-desktop-ellipse-left {
+    top: 25%;
+    left: 0.5%;
+  }
+
+  #second-section-desktop-ellipse-right {
+    top: 10%;
+    right: 0;
+  }
+
+  /* Section 3 */
+  #third-section-ellipse-desktop-left,
+  #third-section-ellipse-desktop-right {
+    display: block;
+    position: absolute;
+  }
+
+  #third-section-ellipse-desktop-left {
+    top: 45%;
+    left: 0;
+  }
+
+  #third-section-ellipse-desktop-right {
+    top: 15%;
+    right: -5%;
+  }
+
+  #third-section-image-desktop {
+    width: 520px;
+    height: auto;
+  }
+
+  /* Section 4 */
+  #desktop-image {
+    width: 55rem;
+    margin: 0 auto;
+  }
+
+  #desktop-image button {
+    margin-top: 34px;
+  }
+
+  /* Section 5 */
+
+  .section-five-cards-container {
+    justify-content: space-evenly;
+  }
+
+  #fifth-section-desktop-ellipse-left,
+  #fifth-section-desktop-ellipse-right,
+  #fifth-section-desktop-ellipse-bottom {
+    display: block;
+    position: absolute;
+  }
+
+  #fifth-section-desktop-ellipse-left {
+    top: 25%;
+    left: -5%;
+  }
+
+  #fifth-section-desktop-ellipse-right {
+    top: 5%;
+    right: 2%;
+    width: 14rem;
+  }
+
+  #fifth-section-desktop-ellipse-bottom {
+    bottom: 25%;
+    right: 3%;
+  }
+
+  /* Section 6 */
+  #faq-section {
+    background-color: #fff;
+  }
+
+  #faq-container {
+    gap: 30px;
+  }
+
+  .faq-ans {
+    width: 100%;
+  }
+
+  .faq img {
+    margin-right: 20px;
+  }
+
+  #faq-ellipse-desktop-left,
+  #faq-ellipse-desktop-right,
+  #faq-ellipse-desktop-bottom {
+    display: block;
+    position: absolute;
+  }
+
+  #faq-ellipse-desktop-left {
+    top: 45%;
+    left: -4%;
+  }
+
+  #faq-ellipse-desktop-right {
+    top: 12%;
+    right: 2%;
+    width: 10rem;
+  }
+
+  #faq-ellipse-desktop-bottom {
+    bottom: 18%;
+    right: 2%;
+  }
+
+  /* Footer section */
+  #footer-ellipse-desktop-left,
+  #footer-ellipse-desktop-right {
+    display: block;
+    position: absolute;
+  }
+
+  #footer-ellipse-desktop-left {
+    top: 35%;
+    left: 0.5%;
+    width: 10rem;
+  }
+
+  #footer-ellipse-desktop-right {
+    top: 25%;
+    right: -2%;
+    width: 15rem;
+  }
+}
+
+/* Extra Large screen devices */
+@media only screen and (min-width: 1920px) {
+  .nav-menu,
+  .top-section,
+  .tablet-card-container,
+  .third-section-desktop,
+  .fourth-section-container.section-five-title,
+  .section-five-cards-container,
+  .faq-title,
+  #faq-container,
+  .footer-desktop,
+  .footer-bottom {
+    width: 1135px;
+  }
 }
