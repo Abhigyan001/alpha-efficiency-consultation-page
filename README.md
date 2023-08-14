@@ -8,7 +8,7 @@
 
 ## Mockup:
 
-![image](assets/mockup.jpg)
+![mockup](https://github.com/Abhigyan001/alpha-efficiency-consultation-page/assets/29688358/8ac8bbed-de2e-4bce-b2b0-1ba5e1c3e74c)
 
 It is responsive across multiple devices.
 
