@@ -1511,6 +1511,11 @@ button p {
     padding-right: 0;
   }
 
+  .about {
+    position: relative;
+    z-index: 2;
+  }
+
   .yellow-rectangle {
     top: 0;
     left: 75%;
@@ -1710,5 +1715,83 @@ button p {
   .footer-desktop,
   .footer-bottom {
     width: 1135px;
+  }
+
+  /* Section 1 */
+
+  .yellow-rectangle {
+    left: 70%;
+  }
+
+  #first-section-desktop-ellipse-left {
+    top: 3%;
+    left: 0;
+  }
+
+  #first-section-desktop-ellipse-right {
+    top: 2.5%;
+    right: 0;
+  }
+
+  /* Section 2 */
+
+  #second-section-desktop-ellipse-left {
+    top: 25%;
+    left: 7%;
+  }
+
+  /* Section 3 */
+
+  #third-section-ellipse-desktop-right {
+    right: 0;
+  }
+
+  /* Section 5 */
+
+  #fifth-section-desktop-ellipse-left {
+    top: 25%;
+    left: 0;
+  }
+
+  #fifth-section-desktop-ellipse-right {
+    top: 5%;
+    right: 5%;
+    width: auto;
+  }
+
+  #fifth-section-desktop-ellipse-bottom {
+    bottom: 25%;
+    right: 12%;
+  }
+
+  /* Section 6 */
+
+  #faq-ellipse-desktop-left {
+    top: 50%;
+    left: 0;
+  }
+
+  #faq-ellipse-desktop-right {
+    top: 10%;
+    right: 3%;
+    width: auto;
+  }
+
+  #faq-ellipse-desktop-bottom {
+    right: 10%;
+  }
+
+  /* Footer section */
+
+  #footer-ellipse-desktop-left {
+    top: 33%;
+    left: 4%;
+    width: auto;
+  }
+
+  #footer-ellipse-desktop-right {
+    top: 25%;
+    right: 0;
+    width: auto;
   }
 }
