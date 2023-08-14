@@ -8,7 +8,7 @@
 
 ## Mockup:
 
-![screenshot](assets/responsive.JPG)
+![screenshot](assets/mockup.jpg)
 
 It is responsive across multiple devices.
 
