@@ -343,14 +343,15 @@ button p {
   z-index: 1;
 }
 
-#third-section-mobile-image {
+#third-section-circle-mobile {
   display: flex;
   justify-content: center;
   margin-top: 53px;
 }
 
 #third-section-ellipse-tablet-left,
-#third-section-ellipse-tablet-right {
+#third-section-ellipse-tablet-right,
+#third-section-image-desktop {
   display: none;
 }
 
@@ -877,7 +878,7 @@ button p {
     display: none;
   }
 
-  #third-section-mobile-image {
+  #third-section-circle-mobile {
     width: 373px;
     height: 482px;
     margin: 0 auto;
@@ -1185,9 +1186,99 @@ button p {
     margin-top: 30px;
   }
 
-  .appointment-button {
+  .button-sec-1 {
     margin: 30px 0 0;
     display: block;
+  }
+
+  /* Section 2 */
+  #book-online {
+    padding: 99px 0;
+    height: auto;
+  }
+
+  .tablet-card-container {
+    width: 1000px;
+  }
+
+  .card-container {
+    gap: 40px;
+  }
+
+  .card {
+    width: 220px;
+    height: 265px;
+  }
+
+  .card img {
+    width: 47px;
+    height: 47px;
+  }
+
+  .card-number,
+  .plus {
+    font-size: 40px;
+  }
+
+  .card-content {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .button-sec-2 {
+    margin: 68px auto 0;
+  }
+
+  #second-section-tablet-ellipse {
+    display: none;
+  }
+
+  /* Section 3 */
+
+  #weight-loss {
+    height: auto;
+    padding: 98px 0 108px;
+  }
+
+  #third-section-ellipse-tablet-left,
+  #third-section-ellipse-tablet-right,
+  #third-section-circle-mobile {
+    display: none;
+  }
+
+  #third-section-image-desktop {
+    display: block;
+    width: 460px;
+  }
+
+  .third-section-desktop {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .query-container {
+    width: 100%;
+  }
+
+  .query-ques {
+    font-size: 32px;
+  }
+
+  .query-ques-2 {
+    margin-top: 54px;
+  }
+
+  .query-ans {
+    font-size: 16px;
+    margin-top: 15px;
+    width: 395px;
+  }
+
+  .button-sec-3 {
+    display: block;
+    margin: 37px 0 0;
   }
 }
 
