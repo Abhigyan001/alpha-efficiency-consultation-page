@@ -406,7 +406,8 @@ button p {
   z-index: 1;
 }
 
-#fourth-section-tablet-ellipse {
+#fourth-section-tablet-ellipse,
+#desktop-image {
   display: none;
 }
 
@@ -1279,6 +1280,176 @@ button p {
   .button-sec-3 {
     display: block;
     margin: 37px 0 0;
+  }
+
+  /* Section 4 */
+
+  #patient-stories {
+    padding: 89px 0 0;
+  }
+
+  .fourth-section-container {
+    width: 1000px;
+    margin: 0 auto;
+    gap: 0;
+  }
+
+  .section-title {
+    text-align: center;
+  }
+
+  .fourth-section-info {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  #fourth-section-tablet-ellipse,
+  #fourth-section-image-mobile,
+  #line-break,
+  .hide-desktop {
+    display: none;
+  }
+
+  #desktop-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 34px;
+  }
+
+  /* Section 5 */
+
+  #fifth-section-tablet-ellipse-right,
+  #fifth-section-tablet-ellipse-left,
+  #fifth-section-tablet-ellipse-bottom {
+    display: none;
+  }
+
+  #free-consultation {
+    padding: 102px 0 60px;
+    height: auto;
+  }
+
+  .section-five-title,
+  .section-five-cards-container {
+    width: 1000px;
+  }
+
+  .separator {
+    width: 384px;
+  }
+
+  .section-five-cards-container {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 64px;
+  }
+
+  .section-five-cards {
+    width: 447px;
+    height: 390px;
+    gap: 39px;
+  }
+
+  .section-five-card-list {
+    width: 400px;
+  }
+
+  .section-five-card-list li {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .button-sec-5 {
+    margin-top: 88px;
+  }
+
+  /* Section 6 */
+
+  #faq-section {
+    padding: 98px 0 106px;
+  }
+
+  .faq-title {
+    width: 1000px;
+    text-align: left;
+  }
+
+  #faq-container {
+    width: 1000px;
+    gap: 15px;
+  }
+
+  .faq-item {
+    padding: 15px 20px;
+  }
+
+  .faq .faq-ques {
+    width: 900px;
+  }
+
+  .faq img {
+    width: 20px;
+  }
+
+  .button-sec-6 {
+    margin-top: 83px;
+  }
+
+  /* Footer Section */
+  #footer-ellipse-tablet-top,
+  #footer-ellipse-tablet-bottom {
+    display: none;
+  }
+
+  #footer {
+    padding: 105px 0 33px;
+  }
+
+  .footer-desktop {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .footer-top {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .footer-top-text {
+    width: 443px;
+  }
+
+  .contact {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .contact-office {
+    margin-top: 45px;
+  }
+
+  .footer-mid {
+    margin-top: 0;
+    width: 800px;
+  }
+
+  .footer-mid p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .footer-bottom {
+    width: 1000px;
+    margin: 100px auto 0;
+  }
+
+  .footer-bottom p {
+    padding-right: 3%;
   }
 }
 
